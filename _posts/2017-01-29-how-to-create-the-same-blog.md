@@ -106,7 +106,7 @@ jekyll serve
 ```
 {% endraw  %}
 
-Переменной `disqus_shortname` укажем имя блога.
+Переменной `disqus_shortname` укажем имя блога. Также изменим в `_config.yml` значение `short_name` в блоке comments->disqus на указанный при регистрации (в моем случае - cortwave-github-io).
 
 ### P.S.
 
