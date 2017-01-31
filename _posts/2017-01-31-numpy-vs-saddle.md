@@ -38,12 +38,14 @@ np.eye(3)
 ```
 
 saddle
+
 ```scala
 mat.ident(3)
 ```
 - создание трехмерного массива 3x3x3
 
 numpy
+
 ```python
 np.random.random((3,3,3))
 ```
@@ -53,12 +55,14 @@ saddle, к сожалению, не поддерживает работу с м�
 - сортировка массива
 
 numpy
+
 ```python
 Z = np.random.random(10)
 Z.sort()
 ```
 
 saddle
+
 ```scala
 vec.rand(10).sorted
 ```
@@ -66,12 +70,14 @@ vec.rand(10).sorted
 - заменить максимальное значение массива нулем
 
 numpy
+
 ```python
 Z = np.random.random(10)
 Z[Z.argmax()] = 0
 ```
 
 saddle
+
 ```scala
 import org.saddle.array._
 val v = vec.rand(10)
@@ -81,11 +87,13 @@ v(argmax(v)) = 0
 - умножение матриц (a, b - матрицы)
 
 numpy
+
 ```python
 np.dot(a, b)
 ```
 
 saddle
+
 ```scala
 a dot b
 ```
@@ -93,6 +101,7 @@ a dot b
 - перестановка строк матрицы
 
 numpy
+
 ```python
 A = np.arange(25).reshape(5,5)
 A[[0,1]] = A[[1,0]]
@@ -103,11 +112,13 @@ A[[0,1]] = A[[1,0]]
 - транспонирование
 
 numpy
+
 ```python
 np.transpose(A)
 ```
 
 saddle
+
 ```scala
 a.T
 ```
