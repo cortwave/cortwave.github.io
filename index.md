@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Стартовая страница
+title: Блог о программировании
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
