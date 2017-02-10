@@ -28,6 +28,20 @@ audio:not([controls]) {
 [hidden] {
   display: none;
 }
+
+/* custom
+*/
+/* To center images */
+.center
+{
+    text-align: center;
+}
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
 /*
 Base from [HTML5 Boilerplate](http://j.mp/rP0wmY)
 - Correct text resizing oddly in IE6/7 when body font-size is set using em units
