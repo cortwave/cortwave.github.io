@@ -85,6 +85,7 @@ JB :
     disqus :
       short_name : cortwave-github-io
    
+  markdown: redcarpet
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
